@@ -25,7 +25,7 @@ while  i < length:  # I want to count all letters in string.
         b=2
         ls.append(b)  #The ls list is consisting of only 1 and 2.
  #if elements of ls different from each other, 1 comes from right and 2 comes from left, 
- #my word gonna be comfortable word.
+ #my word gonna be comfortable.
  
 print(ls)
 for j in range(len(ls)-1): 
