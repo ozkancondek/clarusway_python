@@ -17,4 +17,5 @@ def func_1(x='Solomon', y='David'):  #  kwargs
  
 dict_2 = {'y' : "Marry", 'x' : "Fred"}
 func_1(**dict_2) 
-
+     
+ 

@@ -16,4 +16,4 @@ def func_1(x='Solomon', y='David'):  # defined by kwargs (default values assigne
     print(y, "belongs to Generation Y")
  
 dict_2 = {'y' : "Marry", 'x' : "Fred"}
-func_1(**dict_2) 
+func_1(**dict_2)  
