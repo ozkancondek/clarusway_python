@@ -18,4 +18,24 @@ def func_1(x='Solomon', y='David'):  #  kwargs
 dict_2 = {'y' : "Marry", 'x' : "Fred"}
 func_1(**dict_2) 
      
+
+#---------------------------------------
+def animals(**kwargs):
+    for  key, value in kwargs.items():
+        print(value, "are", key)
+               
+animals(carnivores="Lions", Omnivores="Bears", Herbivores="deers", nomnivores="Human")
+#------------------------------------------
+def organizer(**people):
+    name =[]  #print(list(kwargs.keys())
+    age = []  #print(list(kwargs.values())
+    for  key, value in people.items():
+         name.append(key)
+         age.append(value)
+    print(name) 
+    print(age)
+               
+organizer(a=1,b=2,c=3)
+#--------------------------------------------
+
  

@@ -4,22 +4,19 @@ Created on Tue Aug  3 22:49:14 2021
 
 @author: admin
 """
+k = [[1,2],[3,1]]
+result = 0
+for i in range(len(k)):
+    for j in range(len(k)):
+         
+        if k[i][j]%2 == 0:
+            result = result + k[i][j]
+print(result)
 
-a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-ls = []
-k = []
-l = len(a)
-print ("Your list is below.Cconverted in  3X3 form: ")
-for i in a:
-    print(i)
- 
-a.reverse()
-for x in range(l):
-    for y in range(l):
-        ls.append(a[y][x])
-    k.append(ls)
-    ls = []
-print("The list is rotaded by 90 degrees: ")
-for j in k:
-    print(j)
- 
+
+
+
+
+
+#even =filter(lambda y : y % 2 == 0, k)
+#print(list(even))
