@@ -4,6 +4,7 @@ Created on Mon Aug  9 14:17:18 2021
 
 @author: admin
 """
+#Create a function that takes a number num and returns each place value in the number.
 num = int(input("Enter a number"))
 
 
