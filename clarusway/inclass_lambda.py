@@ -23,7 +23,7 @@ print((lambda x: x[::-1])("ozkan"))#lambda+iterible
  
 for i in  [1,2,3,4,5,10]:
     print(i,":",(lambda x: "odd" if x%2==1 else "even")(i))
-#-----reverser function
+#-----reverser function 
 a = "ozkan"
 reverser = lambda x:x[::-1]
 print(reverser(a))
