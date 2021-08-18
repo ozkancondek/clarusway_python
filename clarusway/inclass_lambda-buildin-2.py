@@ -27,4 +27,8 @@ def equal(*a):
     #return  numbers.count(max(numbers, key = numbers.count)) if numbers.count(max(numbers, key = numbers.count)) >1 else 0
     
 print(equal(1, 22, 22,2,5,8,7,8,8,8,8,8,6)) 
+#----------------------------------
+
+equal_lambda = lambda a, b, c : [a, b, c].count(max([a, b, c], key = [a, b, b].count)) \
+if  [a, b, c].count(max([a, b, c], key = [a, b, b].count)) > 1 else 0
 
