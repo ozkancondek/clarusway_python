@@ -31,4 +31,6 @@ print(equal(1, 22, 22,2,5,8,7,8,8,8,8,8,6))
 
 equal_lambda = lambda a, b, c : [a, b, c].count(max([a, b, c], key = [a, b, b].count)) \
 if  [a, b, c].count(max([a, b, c], key = [a, b, b].count)) > 1 else 0
-
+#----------------------
+equal_lambda = lambda *a: list(a).count(max(list(a), key = list(a).count)) \
+if  list(a).count(max(list(a), key = list(a).count)) > 1 else 0
