@@ -5,8 +5,7 @@ Created on Wed Aug 18 19:04:48 2021
 @author: admin
 """
 # https://www.codewars.com/kata/550f22f4d758534c1100025a
-ls = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST",
-      "NORTH", "WEST", "SOUTH", "SOUTH", "EAST", "WEST"]
+ls = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
 x = len(ls)
 vert = ["NORTH", "SOUTH"]
 horz = ["EAST", "WEST"]
@@ -19,7 +18,7 @@ while c < x:
     location = ls[:2]
     location.sort()
     if location == vert or location == horz:
-        ls = ls[2:]
+        ls = ls[2:] 
     elif len(ls) == 0:
         break
     else:
@@ -29,4 +28,4 @@ while c < x:
 
     c += 1
 
-    print("ls", ls)
+print(ls)
