@@ -28,7 +28,7 @@ for i in range(1,len(lives_visual_dict)+1):
          result = lives_visual_dict[len(lives_visual_dict)-i]
          if result == lives_visual_dict[0]:
              print(lives_visual_dict[0])
-             print("you losed")
+             print("you losed") 
              break
  
             
