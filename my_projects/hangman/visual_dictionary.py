@@ -62,6 +62,6 @@ lives_visual_dict = {
                |
                |
             """,
-        7: "",
+       
     }
 print(lives_visual_dict[2])
