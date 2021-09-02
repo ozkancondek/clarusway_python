@@ -17,4 +17,9 @@ for n in string:
         dict_word[n] = 1
         
 print(dict_word)
+
+
+#-----------------------
+a = input("Please write a sentence: ")
+print({i: a.count(i) for i in a})
     
