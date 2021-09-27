@@ -64,4 +64,4 @@ lives_visual_dict = {
             """,
        
     }
-print(lives_visual_dict[2])
+ 
